@@ -1,0 +1,39 @@
+.Reviews{
+    background: url(https://images.pexels.com/photos/5824883/pexels-photo-5824883.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.Reviews .contents{
+    display: flex;
+}
+.Reviews .contents .box{
+    width: 340px;
+    margin: 50px;
+    padding: 40px;
+    background: #fff;
+    display: grid;
+    place-items: center;
+}
+.Reviews .contents .box .imgBx{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+}
+.Reviews .contents .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .imgBx .ch1{
+    border-radius: 50%;
+
+}
+.box1{
+    height: auto;
+    border: 3px solid #0b0a0a;
+    box-shadow: 0 5px 35px rgba(7, 7, 7, 0.9);
+
+}

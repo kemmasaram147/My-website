@@ -1,0 +1,60 @@
+.reviewbox{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100%;
+    padding-left: 10px;
+}
+.reviewim{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #444;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    text-align: center;
+    font-size: medium;
+}
+.reviewcontents{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+.reviewsuresh{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    padding: 5px; 
+}
+
+.titleText{
+    text-align: center;
+}
+
+.change3{
+    font-size: 70px;
+    color: red;
+}

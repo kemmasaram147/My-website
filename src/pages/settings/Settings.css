@@ -1,0 +1,82 @@
+.settings{
+    display: flex;
+
+}
+.settingwrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingupdatatitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(228, 102, 186);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.settingdeletetitle{
+    color: rgb(226, 43, 43);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingform{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingpp{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingppimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingppicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(197, 25, 120);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.settingform > label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingform > input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.settingsubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+}
